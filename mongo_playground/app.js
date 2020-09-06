@@ -39,7 +39,7 @@ async function run() {
       ])
       .toArray();
 
-    console.dir(docs, { depth: 3 });
+    console.dir(docs, { depth: 3 }); // check 'results.txt'
   } finally {
     await client.close();
   }
