@@ -1,0 +1,21 @@
+[
+  {
+    name: 'Ivan Polischuk',
+    money: 30,
+    discount: 1.5,
+    can_buy_out: [
+      { name: 'apples', amount: 3, price: 10 },
+      { name: 'cucumbers', amount: 8, price: 2 }
+    ]
+  },
+  {
+    name: 'Igor Chistikov',
+    money: 100,
+    discount: 1,
+    can_buy_out: [
+      { name: 'apples', amount: 3, price: 10 },
+      { name: 'oranges', amount: 4, price: 20 },
+      { name: 'cucumbers', amount: 8, price: 2 }
+    ]
+  }
+]
