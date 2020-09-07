@@ -24,15 +24,16 @@ async function run() {
     await goods.insertMany([
       { name: "apples", amount: 3, price: 10 },
       { name: "oranges", amount: 4, price: 20 },
-      { name: "cucumbers", amount: 8, price: 2 },
+      { name: "cucumbers", amount: 8, price: 5 },
     ]);
 
+    const shopping_ability = { $multiply: ["$money", "$discount"] };
     const docs = await users
       .aggregate([
         {
           $lookup: {
             from: "goods",
-            let: { shopping_ability: { $multiply: ["$money", "$discount"] } },
+            let: { shopping_ability },
             pipeline: [
               {
                 $match: {
@@ -55,6 +56,9 @@ async function run() {
         },
         {
           $unset: "_id",
+        },
+        {
+          $set: { shopping_ability },
         },
       ])
       .toArray();
