@@ -36,10 +36,13 @@ async function run() {
             as: "cart",
           },
         },
+        {
+          $unset: "_id",
+        },
       ])
       .toArray();
 
-    console.dir(docs, { depth: 3 }); // check 'results.txt'
+    console.dir(docs, { depth: 3 }); // check 'equality_match.txt'
   } finally {
     await client.close();
   }
