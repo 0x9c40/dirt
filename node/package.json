@@ -9,6 +9,8 @@
   "author": "superintelligence <lubomirvinnik@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "concat-stream": "^2.0.0"
+    "concat-stream": "^2.0.0",
+    "qs": "^6.9.4",
+    "through2": "^4.0.2"
   }
 }
