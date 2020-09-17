@@ -10,8 +10,10 @@
   "license": "MIT",
   "dependencies": {
     "concat-stream": "^2.0.0",
+    "finalhandler": "^1.1.2",
     "qs": "^6.9.4",
     "split2": "^3.2.2",
-    "through2": "^4.0.2"
+    "through2": "^4.0.2",
+    "websocket-stream": "^5.5.2"
   }
 }
