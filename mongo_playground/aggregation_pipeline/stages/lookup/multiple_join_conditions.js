@@ -40,7 +40,10 @@ async function run() {
               {
                 $match: {
                   $expr: {
-                    $and: [{ $eq: ["$stock_item", "$$order_item"] }, { $gte: ["$instock", "$$ordered_qty"] }],
+                    $and: [
+                      { $eq: ["$stock_item", "$$order_item"] },
+                      { $gte: ["$instock", "$$ordered_qty"] },
+                    ],
                   },
                 },
               },
