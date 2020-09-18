@@ -1,0 +1,5 @@
+[
+  { _id: 1, name: 'dave123', total: 16 },
+  { _id: 2, name: 'li', total: 4 },
+  { _id: 3, name: 'ahn', total: 6 }
+]
