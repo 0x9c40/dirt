@@ -1,0 +1,17 @@
+{
+  "name": "webpack_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "author": "superintelligence <lubomirvinnik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
