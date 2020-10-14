@@ -1,1 +1,0 @@
-[ { name: 'Ivan Polishuk', hireable: true }, { name: 'Igor Bolotov' } ]

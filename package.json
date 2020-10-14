@@ -1,0 +1,24 @@
+{
+  "name": "DIRT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "execa": "^4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x9c40/dirt.git"
+  },
+  "keywords": [],
+  "author": "superintelligence <lubomirvinnik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x9c40/dirt/issues"
+  },
+  "homepage": "https://github.com/0x9c40/dirt#readme"
+}
