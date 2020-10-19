@@ -1,26 +1,26 @@
 <template>
   <div>
-    <InputComponentWrapper v-model="msg" />
+    <SimpleSelector :options="items" />
+    <CompoundSelector :options="items" />
   </div>
 </template>
 
 <script>
-import InputComponentWrapper from "./components/InputComponentWrapper.vue";
+import SimpleSelector from "./components/SimpleSelector.vue";
+import CompoundSelector from "./components/CompoundSelector.vue";
 
 export default {
   name: "App",
 
   components: {
-    InputComponentWrapper,
+    SimpleSelector,
+    CompoundSelector,
   },
 
   data() {
     return {
-      msg: "",
+      items: ["science", "technology", "engineering", "math"],
     };
   },
 };
 </script>
-
-<style lang="scss">
-</style>

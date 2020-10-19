@@ -27,7 +27,10 @@ module.exports = (env, { mode }) => {
       ],
     },
     plugins: [
-      new HtmlWebpackPlugin({ template: "./src/index.html" }),
+      new HtmlWebpackPlugin({
+        template: "./src/index.html",
+        favicon: "./assets/favicon.ico",
+      }),
       new VueLoaderPlugin(),
       new webpack.ProgressPlugin(),
     ],
