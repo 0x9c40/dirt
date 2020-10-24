@@ -1,7 +1,0 @@
-[
-  { name: 'Ivan Polishuk', hobbies: { music: { genre: 'Rock' } } },
-  {
-    name: 'Igor Bolotov',
-    hobbies: { music: { genre: 'Techno' }, games: { genre: 'MOBA' } }
-  }
-]
