@@ -1,0 +1,29 @@
+{
+  "name": "dirt",
+  "version": "1.0.1",
+  "description": "## check out other branches to see something interesting",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x9c40/dirt.git"
+  },
+  "keywords": [],
+  "author": "superintelligence <lubomirvinnik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x9c40/dirt/issues"
+  },
+  "homepage": "https://github.com/0x9c40/dirt#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.1.2"
+  }
+}
