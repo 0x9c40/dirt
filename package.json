@@ -1,9 +1,30 @@
 {
-  "name": "dirt",
-  "version": "1.0.1",
-  "description": "## check out other branches to see something interesting",
+  "name": "webpack_dev-server-settings_proxy",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "npm run webpack-dev-server -- --env.mode development --hot"
   },
   "repository": {
     "type": "git",
@@ -15,15 +36,5 @@
   "bugs": {
     "url": "https://github.com/0x9c40/dirt/issues"
   },
-  "homepage": "https://github.com/0x9c40/dirt#readme",
-  "dependencies": {
-    "vue": "^2.6.12"
-  },
-  "devDependencies": {
-    "eslint": "^7.12.0",
-    "eslint-config-prettier": "^6.14.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "prettier": "^2.1.2"
-  }
+  "homepage": "https://github.com/0x9c40/dirt#readme"
 }
