@@ -1,8 +1,5 @@
-import mainImage from "./images/main.png";
-// import mainImage2 from "./images/inside/SUN.jpg";
-const mainImage3 = require("./images/inside/SUN.jpg?lol=111");
+const file1 = require("./file1.js?required_from_index");
+const file2 = require("./file2.js?required_from_index");
+const file3 = require("./file3.js");
 
-// console.log("success", mainImage, mainImage2, mainImage3);
-console.log("success", mainImage, mainImage3);
-console.log(module.loaded);
-console.log(module.id, require.resolve("./index.js"));
+console.log("file", file1, file2, file3);
