@@ -7,9 +7,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:node/recommended",
-    "plugin:vue/recommended",
     "prettier",
-    "prettier/vue",
   ],
   env: {
     node: true,
