@@ -1,0 +1,21 @@
+{
+  "name": "dirt",
+  "version": "1.0.0",
+  "description": "this is my dirt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x9c40/dirt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x9c40/dirt/issues"
+  },
+  "homepage": "https://github.com/0x9c40/dirt#readme"
+}
